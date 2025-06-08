@@ -26,11 +26,11 @@ const Hero = () => {
 
             <p className="text-xl text-gray-700 mb-8">
               Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
-              jurídicas eficazes e personalizadas
+              jurídicas eficazes e personalizadas.
             </p>
-             <a
+            <a
               href="tel:+5511987654321"
-              className="inline-flex items-center bg-[#25D366] hover:bg-[#20BD5A] text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 text-lg gap-2 group"
+              className="inline-flex items-center bg-[#25D366] border border-[#25D366] shadow-sm hover:bg-[#1E8E49] text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 text-lg gap-2 group"
             >
               Entre em contato
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
