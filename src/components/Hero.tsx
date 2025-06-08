@@ -16,15 +16,15 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/2">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#1a365d] mb-6">
+          <div className="lg:w-1/2 text-center lg:text-left">
+            <h1 className="text-4xl md:text-5xl text-center font-serif font-bold text-[#1a365d] mb-6 lg:text-left">
               Flávia Menezes
               <span className="block text-[#c9a55c] text-2xl md:text-3xl mt-2">
                 Advogada
               </span>
             </h1>
 
-            <p className="text-xl text-gray-700 mb-8">
+            <p className="text-xl text-gray-700 mb-8 text-center lg:text-left">
               Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
               jurídicas eficazes e personalizadas.
             </p>
