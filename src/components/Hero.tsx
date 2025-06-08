@@ -1,4 +1,5 @@
-import { ArrowRight } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { ArrowRight  } from 'lucide-react';
 import img from '../img/flaviamenezes.jpg'
 
 const Hero = () => {
@@ -32,6 +33,7 @@ const Hero = () => {
               href="tel:+5511987654321"
               className="inline-flex items-center bg-[#25D366] border border-[#25D366] shadow-sm hover:bg-[#1E8E49] text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 text-lg gap-2 group"
             >
+              <FaWhatsapp className="h-6 w-6" />
               Entre em contato
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
