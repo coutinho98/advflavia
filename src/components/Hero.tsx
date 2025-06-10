@@ -1,42 +1,62 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import { ArrowRight  } from 'lucide-react';
-import img from '../img/flaviamenezes.jpg'
+import { ArrowRight } from 'lucide-react';
+import img from '../img/flaviamenezes.jpg';
 
 const Hero = () => {
   return (
-    <section id="hero" className="py-20 pt-32 bg-[#DDC8B3]">
+    <section id="hero" className="py-20 pt-32 bg-gradient-to-br from-warm-100 via-warm-50 to-amber-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-all duration-600">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
-            <div className="relative rounded-lg overflow-hidden shadow-xl">
-              <img
-                src={img}
-                alt="Advogada Flávia Menezes"
-                className="w-full h-auto object-cover"
-              />
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-gradient-to-r from-warm-400/30 to-amber-400/30 dark:from-primary-500/20 dark:to-secondary-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50 dark:border-slate-700/50 backdrop-blur-sm">
+                <img
+                  src={img}
+                  alt="Advogada Flávia Menezes"
+                  className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent dark:from-black/30 dark:to-transparent" />
+              </div>
             </div>
           </div>
 
-          <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl text-center font-serif font-bold text-[#1a365d] mb-6 lg:text-left">
-              Flávia Menezes
-              <span className="block text-[#c9a55c] text-2xl md:text-3xl mt-2">
-                Advogada
-              </span>
-            </h1>
+          <div className="lg:w-1/2 text-center lg:text-left space-y-8">
+            <div className="space-y-4">
+              <h1 className="text-4xl md:text-5xl text-center font-serif font-bold text-slate-800 dark:text-white mb-6 lg:text-left transition-colors duration-400">
+                Flávia Menezes
+                <span className="block text-warm-600 dark:text-amber-400 text-2xl md:text-3xl mt-2 transition-colors duration-400">
+                  Advogada
+                </span>
+              </h1>
 
-            <p className="text-xl text-gray-700 mb-8 text-center lg:text-left">
-              Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
-              jurídicas eficazes e personalizadas.
-            </p>
-            <a
-              href="tel:+5511987654321"
-              className="inline-flex items-center bg-[#25D366] border border-[#25D366] shadow-sm hover:bg-[#1E8E49] text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 text-lg gap-2 group"
-            >
-              <FaWhatsapp className="h-6 w-6" />
-              Entre em contato
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </a>
+              <p className="text-xl text-gray-700 dark:text-gray-300 text-center lg:text-left leading-relaxed transition-colors duration-400">
+                Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
+                jurídicas eficazes e personalizadas.
+              </p>
+            </div>
+
+            <div className="flex justify-center lg:justify-start">
+              <a
+                href="tel:+5511987654321"
+                className="group relative inline-flex items-center overflow-hidden bg-gradient-to-r from-[#25D366] to-[#1E8E49] hover:from-[#1E8E49] hover:to-[#128C7E] text-white font-bold py-4 px-8 rounded-2xl transition-all duration-300 text-lg gap-3 shadow-lg hover:shadow-xl hover:scale-105"
+              >
+                <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <FaWhatsapp className="h-6 w-6 relative z-10" />
+                <span className="relative z-10">Entre em contato</span>
+                <ArrowRight className="h-5 w-5 relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
+              </a>
+            </div>
+
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+              <div className="flex items-center space-x-2 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm px-4 py-2 rounded-full border border-warm-200/50 dark:border-slate-600/50">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                <span className="text-sm text-gray-600 dark:text-gray-300">Disponível agora</span>
+              </div>
+              <div className="flex items-center space-x-2 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm px-4 py-2 rounded-full border border-warm-200/50 dark:border-slate-600/50">
+                <span className="text-sm text-gray-600 dark:text-gray-300">Consulta gratuita</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

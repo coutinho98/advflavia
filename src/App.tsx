@@ -3,10 +3,11 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div className="font-sans text-gray-800">
+    <ThemeProvider>
       <Navbar />
       <main>
         <Hero />
@@ -14,7 +15,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 }
 
