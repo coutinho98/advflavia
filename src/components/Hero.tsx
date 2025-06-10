@@ -9,12 +9,11 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
             <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-to-r from-warm-400/30 to-amber-400/30 dark:from-primary-500/20 dark:to-secondary-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50 dark:border-slate-700/50 backdrop-blur-sm">
+              <div className="relative rounded-2xl overflow-hidden aspect-[3/4]">
                 <img
                   src={img}
                   alt="Advogada Flávia Menezes"
-                  className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent dark:from-black/30 dark:to-transparent" />
               </div>
