@@ -4,7 +4,7 @@ import img from '../img/flaviamenezes.jpg'
 
 const Hero = () => {
   return (
-    <section id="hero" className="py-20 pt-32 bg-white">
+    <section id="hero" className="py-20 pt-32 bg-[#DDC8B3]">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
