@@ -46,16 +46,6 @@ const Hero = () => {
                 <ArrowRight className="h-5 w-5 relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
               </a>
             </div>
-
-            <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-              <div className="flex items-center space-x-2 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm px-4 py-2 rounded-full border border-warm-200/50 dark:border-slate-600/50">
-                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                <span className="text-sm text-gray-600 dark:text-gray-300">Disponível agora</span>
-              </div>
-              <div className="flex items-center space-x-2 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm px-4 py-2 rounded-full border border-warm-200/50 dark:border-slate-600/50">
-                <span className="text-sm text-gray-600 dark:text-gray-300">Consulta gratuita</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
