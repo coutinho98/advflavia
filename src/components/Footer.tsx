@@ -12,7 +12,7 @@ const Footer = () => {
             <span className="font-serif font-bold">FLÁVIA MENEZES</span>
           </div>
           <p className="text-sm text-gray-300">
-            &copy; {year} Flávia Menezes. Todos os direitos reservados. OAB/SP 000.000
+            &copy; {year} Flávia Menezes. Todos os direitos reservados. OAB/BA 83.569
           </p>
         </div>
       </div>
