@@ -1,5 +1,4 @@
 import { ShieldCheck, Scale, AlertCircle, CheckCircle } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
 
 const services = [
   {

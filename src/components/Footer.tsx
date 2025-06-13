@@ -11,7 +11,7 @@ const Footer = () => {
             <Scale className="h-6 w-6 text-[#c9a55c] mr-2" />
             <span className="font-serif font-bold">FLÁVIA MENEZES</span>
           </div>
-          <p className="text-sm text-gray-300">
+          <p className="text-sm text-gray-300 text-center">
             &copy; {year} Flávia Menezes. Todos os direitos reservados. OAB/BA 83.569
           </p>
         </div>
