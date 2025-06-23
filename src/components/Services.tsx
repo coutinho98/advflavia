@@ -1,26 +1,26 @@
-import { ShieldCheck, Scale, AlertCircle, CheckCircle } from 'lucide-react';
+import { Plane, CircleDollarSign, ShoppingCart, CheckCircle } from 'lucide-react';
 
 const services = [
   {
-    icon: <ShieldCheck className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
-    title: 'Direito do Consumidor',
+    icon: <Plane className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
+    title: 'Problemas com Voos',
     description:
-      'Resolução de problemas com produtos e serviços, incluindo cancelamento de contratos e indenizações.',
-    features: ['Cancelamento de contratos', 'Indenizações', 'Defesa do consumidor']
+      '',
+    features: ['Problemas com Voos', 'Atraso superior a 4 horas', 'Perda de conexão por atraso ou cancelamento', 'Negaram seu embarque (overbooking)', 'Bagagem extraviada, perdida ou danificada']
   },
   {
-    icon: <Scale className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
-    title: 'Direito Civil',
+    icon: <CircleDollarSign className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
+    title: 'Nome Negativado Indevidamente',
     description:
-      'Indenizações, responsabilidade civil e defesa em processos civis.',
-    features: ['Responsabilidade civil', 'Contratos', 'Processos civis']
+      '',
+    features: ['Nunca teve vínculo com a empresa e teve o nome negativado', 'Pagou a dívida, mas seu nome permaneceu no cadastro', 'Foi negativado por um serviço cancelado', 'Pagou há mais de 5 dias e seu nome não foi removido do SPC/Serasa']
   },
   {
-    icon: <AlertCircle className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
+    icon: <ShoppingCart className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
     title: 'Direito Bancário',
     description:
-      'Resolução de problemas com bancos, financiamentos e revisão de contratos.',
-    features: ['Revisão de contratos', 'Problemas bancários', 'Financiamentos']
+      '',
+    features: ['Comprou online ou na loja e não chegou', 'O produto chegou diferente ou com defeito', 'O produto entregue é falso', 'Dificuldades em exercer o direito de garantia', 'Produto na assistência técnica há mais de 30 dias', 'Comprou o produto com defeito e a empresa recusa devolver', 'Defeito na geladeira, fogão, celular, notebook ou outro eletroeletrônico novo', 'A empresa não manda o técnico para olhar e analisar o defeito do produto']
   },
 ];
 
