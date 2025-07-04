@@ -78,7 +78,6 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const toggleTheme = () => {
     setIsTransitioning(true);
     setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
-    
     // Reset transition state after animation
     setTimeout(() => setIsTransitioning(false), 400);
   };

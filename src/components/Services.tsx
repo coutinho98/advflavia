@@ -6,21 +6,39 @@ const services = [
     title: 'Problemas com Voos',
     description:
       '',
-    features: ['Problemas com Voos', 'Atraso superior a 4 horas', 'Perda de conexão por atraso ou cancelamento', 'Negaram seu embarque (overbooking)', 'Bagagem extraviada, perdida ou danificada']
+    features: [
+      'Problemas com Voos',
+      'Atraso superior a 4 horas',
+      'Perda de conexão por atraso ou cancelamento',
+      'Negaram seu embarque (overbooking)',
+      'Bagagem extraviada, perdida ou danificada']
   },
   {
     icon: <CircleDollarSign className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
     title: 'Nome Negativado Indevidamente',
     description:
       '',
-    features: ['Nunca teve vínculo com a empresa e teve o nome negativado', 'Pagou a dívida, mas seu nome permaneceu no cadastro', 'Foi negativado por um serviço cancelado', 'Pagou há mais de 5 dias e seu nome não foi removido do SPC/Serasa']
+    features: [
+      'Nunca teve vínculo com a empresa e teve o nome negativado',
+      'Pagou a dívida, mas seu nome permaneceu no cadastro',
+      'Foi negativado por um serviço cancelado',
+      'Pagou há mais de 5 dias e seu nome não foi removido do SPC/Serasa'
+    ]
   },
   {
     icon: <ShoppingCart className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
     title: 'Direito Bancário',
     description:
       '',
-    features: ['Comprou online ou na loja e não chegou', 'O produto chegou diferente ou com defeito', 'O produto entregue é falso', 'Dificuldades em exercer o direito de garantia', 'Produto na assistência técnica há mais de 30 dias', 'Comprou o produto com defeito e a empresa recusa devolver', 'Defeito na geladeira, fogão, celular, notebook ou outro eletroeletrônico novo', 'A empresa não manda o técnico para olhar e analisar o defeito do produto']
+    features: [
+      'Produto comprado online ou na loja e não foi entregue',
+      'Veio errado, com defeito ou é falsificado',
+      'Empresa dificultando o uso da garantia',
+      'Produto parado na assistência há mais de 30 dias',
+      'Recusa em trocar ou devolver item com defeito',
+      'Eletrodoméstico novo com defeito e sem assistência adequada',
+      'Técnico não comparece para avaliar o problema'
+    ]
   },
 ];
 

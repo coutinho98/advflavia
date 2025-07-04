@@ -58,8 +58,7 @@ export default {
         }
       },
       fontFamily: {
-        'serif': ['Playfair Display', 'Georgia', 'serif'],
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'sans': ['Roboto', 'sans-serif'],
       },
       transitionProperty: {
         'colors': 'color, background-color, border-color, text-decoration-color, fill, stroke',

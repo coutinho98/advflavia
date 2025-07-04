@@ -30,7 +30,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="mailto:flavia.menezes.couto@gmail.com"
+              href="mailto:advocaciaflaviamenezes@gmail.com"
               className="group flex items-center p-6 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-slate-600 to-slate-700 dark:from-slate-700 dark:to-slate-800 rounded-lg mr-4 shadow-md group-hover:shadow-lg transition-all duration-300">
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
               <div className="min-w-0 flex-1">
                 <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white transition-colors duration-400">E-mail</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400 truncate">flavia.menezes.couto@gmail.com</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400 truncate">advocaciaflaviamenezes@gmail.com</p>
               </div>
             </a>
           </div>

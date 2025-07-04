@@ -22,7 +22,7 @@ const Hero = () => {
 
           <div className="lg:w-1/2 text-center lg:text-left space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl text-center font-serif font-bold text-slate-800 dark:text-white mb-6 lg:text-left transition-colors duration-400">
+              <h1 className="text-4xl md:text-5xl text-center font-serif text-slate-800 dark:text-white mb-6 lg:text-left transition-colors duration-400">
                 Flávia Menezes
                 <span className="block text-warm-600 dark:text-amber-400 text-2xl md:text-3xl mt-2 transition-colors duration-400">
                   Advogada
