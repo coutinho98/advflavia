@@ -37,7 +37,8 @@ const Hero = () => {
 
             <div className="flex justify-center lg:justify-start">
               <a
-                href="tel:+5511987654321"
+                href="https://wa.me/message/MU6MHF3LAQN7A1"
+                target="_blank" rel="noopener noreferrer"
                 className="group relative inline-flex items-center overflow-hidden bg-gradient-to-r from-[#25D366] to-[#1E8E49] hover:from-[#1E8E49] hover:to-[#128C7E] text-white font-bold py-4 px-8 rounded-2xl transition-all duration-300 text-lg gap-3 shadow-lg hover:shadow-xl hover:scale-105"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

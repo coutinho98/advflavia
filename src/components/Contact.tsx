@@ -17,7 +17,8 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <a
-              href="tel:+5571993083681"
+              href="https://wa.me/message/MU6MHF3LAQN7A1"
+              target="_blank" rel="noopener noreferrer"
               className="group flex items-center p-6 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#25D366] to-[#1E8E49] rounded-lg mr-4 shadow-md group-hover:shadow-lg transition-all duration-300">
