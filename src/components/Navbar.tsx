@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Scale, Menu, X } from 'lucide-react';
-import ThemeToggle from './ToggleTheme'; // Certifique-se de que o caminho está correto
-
+import ThemeToggle from './ToggleTheme'; 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

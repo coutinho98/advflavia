@@ -32,7 +32,6 @@ const ThemeToggle: React.FC = () => {
             : 'bg-gradient-to-r from-blue-500 to-purple-600 opacity-0 group-hover:opacity-20'
           }
         `} />
-        
         <div className={`
           absolute w-6 h-6 rounded-full transition-all duration-400 ease-in-out
           flex items-center justify-center
@@ -48,7 +47,6 @@ const ThemeToggle: React.FC = () => {
             <Moon className="w-4 h-4 text-slate-700 transition-transform duration-300 group-hover:-rotate-12" />
           )}
         </div>
-        
         {theme === 'dark' && (
           <div className="absolute inset-0 overflow-hidden rounded-full">
             <div className="absolute top-1 right-2 w-1 h-1 bg-white rounded-full opacity-60 animate-pulse" />
@@ -56,7 +54,6 @@ const ThemeToggle: React.FC = () => {
           </div>
         )}
       </button>
-      
       <div className={`
         absolute -bottom-8 left-1/2 transform -translate-x-1/2
         px-2 py-1 text-xs font-medium rounded-md

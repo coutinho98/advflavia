@@ -13,7 +13,6 @@ const Contact = () => {
             Estou sempre disponível para esclarecer suas dúvidas e oferecer a melhor solução jurídica.
           </p>
         </div>
-
         <div className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <a
@@ -29,7 +28,6 @@ const Contact = () => {
                 <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400">(71) 99308-3681</p>
               </div>
             </a>
-
             <a
               href="mailto:advocaciaflaviamenezes@gmail.com"
               className="group flex items-center p-6 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-lg transition-all duration-300 hover:scale-105"

@@ -19,7 +19,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-
           <div className="lg:w-1/2 text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl text-center font-serif text-slate-800 dark:text-white mb-6 lg:text-left transition-colors duration-400">
@@ -28,13 +27,11 @@ const Hero = () => {
                   Advogada
                 </span>
               </h1>
-
               <p className="text-xl text-gray-700 dark:text-gray-300 text-center lg:text-left leading-relaxed transition-colors duration-400">
                 Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
                 jurídicas eficazes e personalizadas.
               </p>
             </div>
-
             <div className="flex justify-center lg:justify-start">
               <a
                 href="https://wa.me/message/MU6MHF3LAQN7A1"

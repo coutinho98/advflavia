@@ -58,7 +58,6 @@ const Services = () => {
             sempre com atendimento personalizado e soluções eficazes.
           </p>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {services.map((service, index) => (
             <div
@@ -66,12 +65,10 @@ const Services = () => {
               className="group relative overflow-hidden bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-2xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-2xl transition-all duration-500 hover:scale-105"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-warm-50/50 to-amber-100/30 dark:from-slate-700/30 dark:to-slate-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
               <div className="relative p-8 space-y-6">
                 <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-br from-warm-100 to-amber-100 dark:from-slate-700 dark:to-slate-600 rounded-2xl mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300">
                   {service.icon}
                 </div>
-
                 <div className="text-center space-y-4">
                   <h3 className="text-2xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
                     {service.title}
@@ -80,7 +77,6 @@ const Services = () => {
                     {service.description}
                   </p>
                 </div>
-
                 <div className="space-y-3">
                   {service.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-center space-x-3">
