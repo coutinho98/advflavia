@@ -7,10 +7,10 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
-            Entre em Contato
+            Agende Sua Consultoria Jurídica
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto transition-colors duration-400">
-            Estou sempre disponível para esclarecer suas dúvidas e oferecer a melhor solução jurídica.
+            Precisa de orientação jurídica especializada? Nosso escritório de advocacia oferece soluções personalizadas para o seu caso, com atendimento dedicado e foco em resultados de excelência.
           </p>
         </div>
         <div className="max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white transition-colors duration-400">WhatsApp</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400">(71) 99308-3681</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400">(71) 99108-6618</p>
               </div>
             </a>
             <a

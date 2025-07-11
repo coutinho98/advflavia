@@ -27,7 +27,7 @@ const services = [
   },
   {
     icon: <ShoppingCart className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
-    title: 'Direito Bancário',
+    title: 'Compras Online',
     description:
       '',
     features: [
@@ -54,8 +54,7 @@ const Services = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto transition-colors duration-400">
-            Ofereço serviços jurídicos especializados com foco na defesa dos seus direitos,
-            sempre com atendimento personalizado e soluções eficazes.
+            Atuo com foco na resolução de conflitos e na proteção dos seus direitos, especialmente nas relações de consumo. Cada caso é tratado com atenção individualizada e estratégias jurídicas alinhadas às suas necessidades.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">

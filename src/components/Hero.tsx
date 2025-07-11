@@ -28,8 +28,7 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-700 dark:text-gray-300 text-center lg:text-left leading-relaxed transition-colors duration-400">
-                Com experiência comprovada em defesa dos direitos do consumidor, ofereço soluções
-                jurídicas eficazes e personalizadas.
+                Com ampla experiência na defesa dos direitos do consumidor, atuo com comprometimento e excelência para oferecer soluções jurídicas sob medida, focadas em resultados concretos e proteção legal.
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">
