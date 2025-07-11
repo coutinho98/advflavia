@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
@@ -9,8 +9,13 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
             Agende Sua Consultoria Jurídica
           </h2>
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto transition-colors duration-400">
-            Precisa de orientação jurídica especializada? Nosso escritório de advocacia oferece soluções personalizadas para o seu caso, com atendimento dedicado e foco em resultados de excelência.
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto transition-colors duration-400 text-center">
+            <span className="flex items-center justify-center mb-2">
+              <Phone className="text-warm-600 dark:text-amber-400 mr-2 ml-1 " size={20} /> Entre em contato para marcar sua consultoria inicial.
+            </span>
+            <span className="flex items-center justify-center">
+              <Mail className="text-warm-600 dark:text-amber-400 mr-2" size={20} /> Atendimento exclusivo por ordem de agendamento.
+            </span>
           </p>
         </div>
         <div className="max-w-2xl mx-auto">
