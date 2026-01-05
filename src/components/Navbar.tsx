@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Scale, Menu, X } from 'lucide-react';
-import ThemeToggle from './ToggleTheme'; 
+import ThemeToggle from './ToggleTheme';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,31 +21,31 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-4'
-      } dark:bg-gray-900 dark:text-white`}
+      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-[#1a365d] shadow-lg py-2'
+          : 'bg-[#1a365d]/95 backdrop-blur-sm py-4' 
+        } dark:bg-gray-900 text-white`} 
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
-          {/* mudar a logo depois */}
           <a href="#" className="flex items-center space-x-2">
             <Scale className="h-10 w-10 text-[#c9a55c]" />
             <div>
-              <h1 className="text-xl font-serif font-bold tracking-wider text-[#1a365d] dark:text-gray-200">
+              <h1 className="text-xl font-serif font-bold tracking-wider text-white">
                 FLÁVIA MENEZES
               </h1>
               <p className="text-xs font-medium tracking-wider text-[#c9a55c]">
-                ADVOCAÇÃO E CONSULTORIA
+                ADVOCACIA E CONSULTORIA
               </p>
             </div>
           </a>
 
-          <div className="hidden md:flex items-center space-x-8"> 
+          <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-[#1a365d] hover:text-[#c9a55c] transition-colors font-medium dark:text-gray-200 dark:hover:text-[#c9a55c]"
+                className="text-gray-100 hover:text-[#c9a55c] transition-colors font-medium"
               >
                 {link.name}
               </a>
@@ -53,10 +53,10 @@ const Navbar = () => {
             <ThemeToggle />
           </div>
 
-          <div className="md:hidden flex items-center space-x-4"> 
-            <ThemeToggle /> 
+          <div className="md:hidden flex items-center space-x-4">
+            <ThemeToggle />
             <button
-              className="text-[#1a365d] dark:text-gray-200" 
+              className="text-white"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -65,12 +65,12 @@ const Navbar = () => {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden mt-2 py-4 px-2 bg-white dark:bg-gray-800 rounded-md shadow-lg">
+          <div className="md:hidden mt-2 py-4 px-2 bg-[#1a365d] border border-slate-700 rounded-md shadow-lg">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="block text-[#1a365d] hover:text-[#c9a55c] transition-colors font-medium py-2 dark:text-gray-200 dark:hover:text-[#c9a55c]" 
+                className="block text-white hover:text-[#c9a55c] transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
