@@ -21,11 +21,13 @@ const Hero = () => {
           </div>
           <div className="lg:w-1/2 text-center lg:text-left space-y-8">
             <div className="space-y-4">
-              <h1 className="text-left text-4xl md:text-5xl font-serif text-slate-800 dark:text-white mb-6 leading-tight transition-colors duration-400">
+              <h1 className="text-4xl md:text-5xl font-serif text-slate-800 dark:text-white mb-6 leading-tight transition-colors duration-400">
                 Seu plano de saúde <span className="text-red-600 dark:text-red-400">negou</span> um tratamento urgente?
               </h1>
-              <p className="text-left text-xl text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-400">
-                Atuação especializada em liminares contra planos de saúde em Salvador. <br></br>Garanta sua cirurgia, medicamento ou internação com agilidade e segurança jurídica.
+              <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-400">
+                Atuação especializada em liminares contra planos de saúde em Salvador.
+                <br /><br />
+                Garanta sua cirurgia, medicamento ou internação com agilidade e segurança jurídica.
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">
@@ -39,7 +41,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-        </div>  
+        </div>
       </div>
     </section>
   );
