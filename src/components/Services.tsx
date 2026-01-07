@@ -16,7 +16,7 @@ const services = [
     icon: <Scale className="h-12 w-12 text-warm-600 dark:text-amber-400" />,
     title: 'Revisão de Abusividades',
     features: [
-      'Reajustes de Mensalidade (60+)',
+      'Reajustes de Mensalidade',
       'Cancelamento Unilateral do Plano',
       'Erro Médico e Indenizações',
       'Reembolso de Despesas Médicas'
