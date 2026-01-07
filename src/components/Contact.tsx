@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
-            Agende Sua Consultoria Jurídica
+            Agende sua consultoria jurídica
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto transition-colors duration-400 text-center">
             <span className="flex items-center justify-center mb-2">
