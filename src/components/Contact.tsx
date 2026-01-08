@@ -18,31 +18,33 @@ const Contact = () => {
             </span>
           </p>
         </div>
+
         <div className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <a
               href="https://wa.me/message/MU6MHF3LAQN7A1"
               target="_blank" rel="noopener noreferrer"
-              className="group flex items-center p-6 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="group flex items-center p-6 bg-slate-900 dark:bg-white/90 backdrop-blur-sm rounded-xl border border-slate-800 dark:border-warm-200 hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#25D366] to-[#1E8E49] rounded-lg mr-4 shadow-md group-hover:shadow-lg transition-all duration-300">
                 <FaWhatsapp className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white transition-colors duration-400">WhatsApp</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400">(71) 99108-6618</p>
+                <h3 className="font-serif font-bold text-lg text-white dark:text-slate-800 transition-colors duration-400">WhatsApp</h3>
+                <p className="text-sm text-slate-300 dark:text-gray-600 transition-colors duration-400">(71) 99108-6618</p>
               </div>
             </a>
+
             <a
               href="mailto:advocaciaflaviamenezes@gmail.com"
-              className="group flex items-center p-6 bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl border border-warm-200/50 dark:border-slate-600/50 hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="group flex items-center p-6 bg-slate-900 dark:bg-white/90 backdrop-blur-sm rounded-xl border border-slate-800 dark:border-warm-200 hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-slate-600 to-slate-700 dark:from-slate-700 dark:to-slate-800 rounded-lg mr-4 shadow-md group-hover:shadow-lg transition-all duration-300">
+              <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-slate-500 to-slate-600 rounded-lg mr-4 shadow-md group-hover:shadow-lg transition-all duration-300">
                 <Mail className="h-6 w-6 text-white" />
               </div>
               <div className="min-w-0 flex-1">
-                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white transition-colors duration-400">E-mail</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-400 truncate">advocaciaflaviamenezes@gmail.com</p>
+                <h3 className="font-serif font-bold text-lg text-white dark:text-slate-800 transition-colors duration-400">E-mail</h3>
+                <p className="text-sm text-slate-300 dark:text-gray-600 transition-colors duration-400 ">advocaciaflaviamenezes@gmail.com</p>
               </div>
             </a>
           </div>
