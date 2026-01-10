@@ -22,12 +22,12 @@ const Hero = () => {
           <div className="lg:w-1/2 text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl font-serif text-slate-800 dark:text-white mb-6 leading-tight transition-colors duration-400">
-                Seu plano de saúde <span className="text-red-600 dark:text-red-400">negou</span> um tratamento urgente?
+                Especialista em reverter negativas de planos de saúde.
               </h1>
-              <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-400">
-                Atuação especializada em liminares contra planos de saúde em Salvador.
+              <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-400 text-justify">
+                Como advogada especialista em Direito Médico e da Saúde, atuo estrategicamente perante os tribunais para garantir que os contratos de planos de saúde sejam cumpridos integralmente.
                 <br /><br />
-                Garanta sua cirurgia, medicamento ou internação com agilidade e segurança jurídica.
+                Minha missão é assegurar que negativas indevidas e abusivas não impeçam o seu acesso ao melhor tratamento disponível. Intervenho máxima celeridade e rigor técnico para reabelecer seus direitos e garantir a segurança jurídica que a sua saúde exige.
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">

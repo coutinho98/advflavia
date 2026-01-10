@@ -30,18 +30,19 @@ const Services = () => {
     <section id="services" className="py-20 bg-gradient-to-br from-warm-100 via-warm-50 to-amber-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-all duration-600">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-16 space-y-6">
-          <h2 className=" text-4xl md:text-5xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-slate-800 dark:text-white transition-colors duration-400">
             Especialista em direito à saúde e defesa do paciente
           </h2>
-          <p className=" text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto transition-colors duration-400">
-            Atuação jurídica estratégica para garantir o acesso imediato a tratamentos, cirurgias e medicamentos negados pelos planos de saúde. 
-            <br /><br />  
+
+          <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto transition-colors duration-400 text-justify">
+            Atuação jurídica estratégica para garantir o acesso imediato a tratamentos, cirurgias e medicamentos negados pelos planos de saúde.
+            <br /><br />
             Protegendo sua vida com agilidade e rigor técnico.
           </p>
 
           <div className="inline-flex items-center justify-center space-x-2 bg-red-50 dark:bg-red-900/20 px-6 py-3 rounded-full border border-red-100 dark:border-red-800/30">
             <AlertCircle className="h-5 w-5 text-red-600 dark:text-red-400" />
-            <span className=" text-red-700 dark:text-red-300 font-semibold text-sm md:text-base">
+            <span className="text-red-700 dark:text-red-300 font-semibold text-sm md:text-base">
               Atendimento prioritário para casos de urgência e emergência.
             </span>
           </div>
